@@ -16,21 +16,21 @@ This email is sent upon completion of a successful pre-order.
 
 **Available email variables:**
 
-* Customer name {{ customer_name }}
-* Quantity {{ quantity }}
-* Subtotal {{ subtotal }}
-* Shipping {{ shipping }}
-* Total charged (required) {{ total_charged }}
-* Date charged (required) {{ date_charged }}
-* Name on card (required) {{ name_on_card }}
-* Billing statement text (required) {{ billing_statement_text }}
-* Transaction ID (required) {{ transaction_id }}
-* Card type {{ card_type }}
-* Card last four {{ card_last_four }}
-* Shipping address {{ shipping_address }}
-* Additional info {{ additional_info }}
-* Social sharing URL {{ social_sharing_url }}
-* Referral link {{ referral link }}
+* ```{{ customer_name }}``` - Customer name
+* ```{{ quantity }}``` - Quantity
+* ```{{ subtotal }}``` - Subtotal
+* ```{{ shipping }}``` - Shipping
+* ```{{ total_charged }}``` - Total charged (required)
+* ```{{ date_charged }}``` - Date charged (required)
+* ```{{ name_on_card }}``` - Name on card (required)
+* ```{{ billing_statement_text }}``` - Billing statement text (required)
+* ```{{ transaction_id }}``` - Transaction ID (required)
+* ```{{ card_type }}``` - Card type
+* ```{{ card_last_four }}``` - Card last four
+* ```{{ shipping_address }}``` - Shipping address
+* ```{{ additional_info }}``` - Additional info
+* ```{{ social_sharing_url }}``` - Social sharing URL
+* ```{{ referral link }}``` - Referral link
 
 ### Referral email email
 
@@ -38,8 +38,8 @@ This email is sent to your customer when another customer purchases through thei
 
 **Available payment variables:**
 
-* Referral amount {{ referral_amount }}
-* Referral link {{ referral_link }}
+* ```{{ referral_amount }}``` - Referral amount
+* ```{{ referral_link }}``` - Referral link
 
 ### Refund confirmation email
 
@@ -47,11 +47,11 @@ This email is sent to your customer should their refund be refunded.
 
 **Available email variables:**
 
-* Transaction ID (required) {{ transaction_id }}
-* Amount refunded (required) {{ amount_refunded }}
-* Refund billing statement text (required) {{ refund_billing_statement_text }}
-* Date of charge {{ date_of_charge }}
-* Date refunded {{ date_refunded }}
+* ```{{ transaction_id }}``` - Transaction ID (required)
+* ```{{ amount_refunded }}``` - Amount refunded (required)
+* ```{{ refund_billing_statement_text }}``` - Refund billing statement text (required)
+* ```{{ date_of_charge }}``` - Date of charge
+* ```{{ date_refunded }}``` - Date refunded
 
 ## Recommended setup (MailChimp)
 
